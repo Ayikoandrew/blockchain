@@ -1,0 +1,23 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "fundme project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayikoandrew/blockchain.git"
+  },
+  "author": "Ayiko Andrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayikoandrew/blockchain/issues"
+  },
+  "homepage": "https://github.com/Ayikoandrew/blockchain#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.13"
+  }
+}
