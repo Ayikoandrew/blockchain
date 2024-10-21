@@ -23,7 +23,7 @@ library PriceConverter {
 
     function getVersion() public view returns (uint256) {
         return
-            AggregateV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306)
+            AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306)
                 .version();
     }
 }
