@@ -3,6 +3,7 @@
 pragma solidity 0.8.27;
 
 import {PriceConverter} from "./PriceConverter.sol";
+import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 error notOwner();
 
@@ -55,6 +56,12 @@ contract FundMe {
             revert notOwner();
         }
         _;
+    }
+
+    function getVersion() public view returns (uint256) {
+        return
+            AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306)
+                .version();
     }
 
     receive() external payable {

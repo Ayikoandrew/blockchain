@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/ayiko/Desktop/blockchain/contracts/FundMe.sol": {
-      "lastModificationDate": 1729589217616,
-      "contentHash": "141a73ebac98d14fb34a6f714916e427",
+      "lastModificationDate": 1729691981324,
+      "contentHash": "39cbc4af414ec4141a1c218473a0ad19",
       "sourceName": "contracts/FundMe.sol",
       "solcConfig": {
         "version": "0.8.27",
@@ -30,7 +30,8 @@
         }
       },
       "imports": [
-        "./PriceConverter.sol"
+        "./PriceConverter.sol",
+        "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol"
       ],
       "versionPragmas": [
         "0.8.27"
@@ -40,8 +41,8 @@
       ]
     },
     "/home/ayiko/Desktop/blockchain/contracts/PriceConverter.sol": {
-      "lastModificationDate": 1729533803943,
-      "contentHash": "2366e55d316de76758188e1fbaa18b17",
+      "lastModificationDate": 1729691926957,
+      "contentHash": "2604a6cfb47c00c2de37c37f405a7a6f",
       "sourceName": "contracts/PriceConverter.sol",
       "solcConfig": {
         "version": "0.8.27",
